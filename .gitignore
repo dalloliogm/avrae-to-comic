@@ -1,0 +1,24 @@
+.DS_Store
+.Rhistory
+.venv/
+__pycache__/
+*.pyc
+
+# Keep private campaign data local by default.
+campaigns/
+characters/
+archive/
+docs/imported-conversations/
+
+# Generated comic outputs are usually based on private scenes.
+**/visual-drafts/
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.webp
+
+# Keep public templates tracked.
+!campaign-template/
+!campaign-template/**
+!templates/
+!templates/**

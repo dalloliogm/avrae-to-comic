@@ -1,0 +1,12 @@
+[project]
+name = "avrae-to-comic"
+version = "0.1.0"
+description = "Templates and utilities for adapting Avrae-heavy play-by-post scenes into comic pages."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pillow>=10.0.0",
+]
+
+[project.urls]
+Repository = "https://github.com/dalloliogm/avrae-to-comic"
