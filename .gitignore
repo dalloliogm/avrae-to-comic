@@ -22,3 +22,11 @@ docs/imported-conversations/
 !campaign-template/**
 !templates/
 !templates/**
+
+# Explicit public areas for cleared examples, generated comics, and public datasets.
+!examples/
+!examples/**
+!public-comics/
+!public-comics/**
+!datasets/
+!datasets/**
