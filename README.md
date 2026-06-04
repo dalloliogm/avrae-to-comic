@@ -2,12 +2,13 @@
 
 Play-by-post Dungeons & Dragons games are tabletop RPG campaigns played through written messages instead of a live voice or in-person session. Players post character actions, dialogue, dice rolls, and combat commands over time, often in Discord servers that use Avrae to automate D&D mechanics.
 
-This repository is a public toolkit for adapting Avrae-heavy play-by-post scenes into comic pages. It keeps the reusable workflow public while keeping private source logs local.
+This repository is a public toolkit for adapting Avrae-heavy play-by-post scenes into comic pages. It keeps raw source logs local while publishing selected summaries, scripts, lettering files, and generated comics.
 
 Use it to organize and adapt:
 
 - local-only raw Discord chat pasted from previous adventures
-- local-only character summaries, current sheets, portraits, and visual continuity notes
+- selected public summaries, page scripts, comic plans, and lettering layouts
+- local-only character sheets, private portraits, and visual continuity notes
 - local-only Avrae aliases, snippets, embeds, command notes, rolls, and combat outcomes
 - scene summaries written in your own words
 - comic plans, page scripts, thumbnails, generated art, lettering JSON, and finished comic readers
@@ -27,13 +28,13 @@ One main purpose of this repository is to turn play-by-post campaign text into r
 
 ## Campaigns
 
-This public repo includes campaign folders for generated comic pages only. Raw logs, session summaries, private character notes, portraits, page packets, and lettering source files remain local.
+This public repo includes campaign folders for generated comic pages plus selected non-raw adaptation files. Raw Discord logs remain local.
 
-- [The Gates](campaigns/the-gates/README.md): generated pages and thumbnails from the Weave Gate comic work.
-- [Barovia](campaigns/barovia/README.md): generated pages from Curse of Strahd / Watchful Star comic work.
+- [The Gates](campaigns/the-gates/README.md): summaries, scripts, lettering JSON, generated pages, and thumbnails from the Weave Gate comic work.
+- [Barovia](campaigns/barovia/README.md): summary, comic plan, and generated pages from Curse of Strahd / Watchful Star comic work.
 - [FIREBALL](campaigns/fireball/README.md): generated comic experiments based on FIREBALL dataset scenes.
 
-Private campaign work can still live in ignored local folders such as `campaigns/<campaign>/` when it is not part of one of the public comic galleries. Those local folders can contain raw logs, summaries, character notes, portraits, page packets, generated art, and finished local readers without being committed.
+Private campaign work can still live in ignored local folders such as `campaigns/<campaign>/` when it is not part of one of the public campaign sections. Those local folders can contain raw logs, private character notes, portraits, page packets, generated art, and finished local readers without being committed.
 
 Public campaign-derived material should be limited to cleared adaptation outputs, for example:
 
@@ -44,10 +45,17 @@ Public campaign-derived material should be limited to cleared adaptation outputs
 
 ## Examples And Current Work In Progress
 
+| Comic | Notes | Links |
+| --- | --- | --- |
+| The Gates: Weave Gate | Current generated Gates comic work with lettered pages, thumbnails, scripts, summary, and editable lettering JSON. | [comic reader](campaigns/the-gates/gates/weave-gate/08-comic-planning/comic-book.md) [gallery](campaigns/the-gates/gates/weave-gate/08-comic-planning/README.md) [summary](campaigns/the-gates/gates/weave-gate/03-session-summaries/2026-03-10-weave-gate-origin-gem-dominion.md) |
+| Barovia: Watchful Star | Generated Barovia page with comic plan and scene summary. | [gallery](campaigns/barovia/08-comic-planning/README.md) [summary](campaigns/barovia/03-session-summaries/2026-05-05-watchful-star-marcel-mission-in-progress.md) [plan](campaigns/barovia/08-comic-planning/2026-05-05-watchful-star-part-01-comic-plan.md) |
+| FIREBALL: Stonefire vs Revenant | Experimental FIREBALL adaptation with generated page, plan, scripts, summary, and lettering JSON. | [comic](campaigns/fireball/08-comic-planning/0149d30b-stonefire-revenant-comic-page-v2-lettered.png) [plan](campaigns/fireball/08-comic-planning/0149d30b-stonefire-revenant-comic-plan.md) [summary](campaigns/fireball/03-session-summaries/0149d30bc679987f4bdf288ad2cf777e.md) |
+| FIREBALL: Lythra vs Banjo Bear | Generated one-page FIREBALL comic with base art and lettering JSON. | [comic](campaigns/fireball/08-comic-planning/0408134b-lythra-banjo-bear-page-01-lettered.png) [summary](campaigns/fireball/03-session-summaries/0408134bff023e90d26ceecd1c4669ef.md) [gallery](campaigns/fireball/08-comic-planning/README.md) |
+
 Public examples and generated campaign pages can live in:
 
 ```text
-campaigns/the-gates/
+campaigns/the-gates/gates/weave-gate/
 campaigns/barovia/
 campaigns/fireball/
 examples/
@@ -59,17 +67,17 @@ Suggested example categories:
 
 | Example Type | Notes | Public Location |
 | --- | --- | --- |
-| The Gates comics | Generated pages and thumbnails focused on the Weave Gate adaptation. | `campaigns/the-gates/` |
-| Barovia comics | Generated pages from the Barovia / Curse of Strahd adaptation work. | `campaigns/barovia/` |
-| FIREBALL adaptations | Comic experiments based on the FIREBALL dataset, subject to dataset license and attribution requirements. | `campaigns/fireball/` |
+| The Gates comics | Summary, scripts, lettering JSON, generated pages, and thumbnails focused on the Weave Gate adaptation. | `campaigns/the-gates/gates/weave-gate/` |
+| Barovia comics | Summary, plan, and generated pages from the Barovia / Curse of Strahd adaptation work. | `campaigns/barovia/` |
+| FIREBALL adaptations | Summaries, plans, scripts, lettering JSON, and comic experiments based on the FIREBALL dataset, subject to dataset license and attribution requirements. | `campaigns/fireball/` |
 | Character-focused comics | Additional generated pages centered on your own characters, with other players' contributions minimized or rewritten. | `public-comics/` |
 | Workflow samples | Small fictional or synthetic examples that demonstrate page packets, image prompts, and lettering JSON. | `examples/workflow/` |
 
-Keep raw campaign logs local even when the final comic page is public.
+Keep raw campaign logs local even when summaries, scripts, lettering JSON, and final comic pages are public.
 
 ## Why Use This Repository For Play-By-Post Comics
 
-This repository keeps the adaptation chain organized: source logs stay local, while public-safe summaries, page scripts, image prompts, editable lettering, and selected rendered pages can be shared.
+This repository keeps the adaptation chain organized: source logs stay local, while selected summaries, page scripts, image prompts, editable lettering, and rendered pages can be shared.
 
 The workflow is designed around a few practical rules:
 
@@ -80,6 +88,8 @@ The workflow is designed around a few practical rules:
 - Mark invented connective tissue as an adaptation choice when it is not explicit in the source.
 
 For multi-pass page work, [comic-agent-orchestration.md](docs/comic-agent-orchestration.md) defines page packets, role prompts, and a review loop for continuity, scripting, prompting, lettering, and rendered-page review.
+
+For keeping the private source repo and this public repo aligned, see [repo-workflow.md](docs/repo-workflow.md).
 
 ## Privacy Model
 
@@ -99,10 +109,10 @@ The default `.gitignore` blocks common local campaign-data folders while allowin
 
 ```text
 campaign-template/       Copy this folder when starting a local campaign workspace.
-campaigns/               Ignored local campaign data: raw logs, notes, page packets, art.
-campaigns/the-gates/     Public generated Gates comic pages only.
-campaigns/barovia/       Public generated Barovia comic pages only.
-campaigns/fireball/      Public generated FIREBALL comic pages only.
+campaigns/               Public campaign sections plus ignored raw-log paths.
+campaigns/the-gates/     Public Gates summaries, scripts, lettering, and comic pages.
+campaigns/barovia/       Public Barovia summary, plan, and comic pages.
+campaigns/fireball/      Public FIREBALL summaries, scripts, lettering, and comic pages.
 characters/              Ignored local character profiles and visual references.
 examples/                Public-safe examples and workflow demos.
 public-comics/           Cleared rendered comic pages and readers.

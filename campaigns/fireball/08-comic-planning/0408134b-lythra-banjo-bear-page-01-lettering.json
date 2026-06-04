@@ -1,0 +1,67 @@
+[
+  {
+    "kind": "caption",
+    "text": "Arena fight: Lythra, half-orc ranger, versus one extremely strange bear.",
+    "x": 24,
+    "y": 24,
+    "w": 360,
+    "h": 72,
+    "font_size": 22,
+    "min_font_size": 15,
+    "align": "left"
+  },
+  {
+    "kind": "caption",
+    "text": "What the hell is that!?",
+    "x": 560,
+    "y": 404,
+    "w": 230,
+    "h": 58,
+    "font_size": 23,
+    "min_font_size": 15
+  },
+  {
+    "kind": "sfx",
+    "text": "BASHIN' BANJO",
+    "x": 506,
+    "y": 706,
+    "w": 250,
+    "h": 64,
+    "font_size": 32,
+    "min_font_size": 18,
+    "stroke_width": 2,
+    "stroke_fill": [244, 232, 190, 255]
+  },
+  {
+    "kind": "caption",
+    "text": "She dodges, ducking just bear-ly away from facing the music.",
+    "x": 26,
+    "y": 898,
+    "w": 318,
+    "h": 68,
+    "font_size": 20,
+    "min_font_size": 14,
+    "align": "left"
+  },
+  {
+    "kind": "caption",
+    "text": "No more jokes. No more misses.",
+    "x": 26,
+    "y": 1374,
+    "w": 270,
+    "h": 58,
+    "font_size": 21,
+    "min_font_size": 14,
+    "align": "left"
+  },
+  {
+    "kind": "caption",
+    "text": "The Arena Master calls it. The half-orc has won again.",
+    "x": 472,
+    "y": 1704,
+    "w": 322,
+    "h": 70,
+    "font_size": 21,
+    "min_font_size": 14
+  }
+]

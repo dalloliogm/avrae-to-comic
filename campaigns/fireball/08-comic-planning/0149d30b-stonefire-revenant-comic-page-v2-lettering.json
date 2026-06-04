@@ -1,0 +1,85 @@
+[
+  {
+    "kind": "caption",
+    "text": "Stonefire, a lone goliath monk, enters the dungeon maze.",
+    "x": 24,
+    "y": 28,
+    "w": 340,
+    "h": 78,
+    "font_size": 24,
+    "min_font_size": 16,
+    "align": "left"
+  },
+  {
+    "kind": "caption",
+    "text": "Far behind him, Lloyd keeps to the dark.",
+    "x": 24,
+    "y": 372,
+    "w": 300,
+    "h": 70,
+    "font_size": 23,
+    "min_font_size": 16,
+    "align": "left"
+  },
+  {
+    "kind": "speech-dark",
+    "text": "AnD yOu ShOuLd HaVe Run.",
+    "x": 728,
+    "y": 584,
+    "w": 246,
+    "h": 86,
+    "font_size": 25,
+    "min_font_size": 16
+  },
+  {
+    "kind": "speech-dark",
+    "text": "YoU cAnNoT kIlL wHaT iS aLrEaDy DeAd.",
+    "x": 638,
+    "y": 860,
+    "w": 318,
+    "h": 108,
+    "font_size": 24,
+    "min_font_size": 15
+  },
+  {
+    "kind": "caption",
+    "text": "The Revenant rises after every strike.",
+    "x": 28,
+    "y": 824,
+    "w": 292,
+    "h": 58,
+    "font_size": 21,
+    "min_font_size": 14,
+    "align": "left"
+  },
+  {
+    "kind": "speech-dark",
+    "text": "YoUr SoUl WiLl Be DeLiCiOuS, aNd YoUr BoDy ShAlL bE UsEd ApPr-",
+    "x": 642,
+    "y": 1080,
+    "w": 324,
+    "h": 118,
+    "font_size": 22,
+    "min_font_size": 14
+  },
+  {
+    "kind": "caption",
+    "text": "The fireball does not come from Stonefire.",
+    "x": 350,
+    "y": 1260,
+    "w": 300,
+    "h": 64,
+    "font_size": 22,
+    "min_font_size": 15
+  },
+  {
+    "kind": "caption",
+    "text": "Are you alright?",
+    "x": 828,
+    "y": 1284,
+    "w": 160,
+    "h": 58,
+    "font_size": 21,
+    "min_font_size": 15
+  }
+]

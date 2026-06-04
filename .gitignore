@@ -23,26 +23,38 @@ docs/imported-conversations/
 !templates/
 !templates/**
 
-# Public campaign comic galleries. Keep raw logs and notes out of these folders.
+# Public campaign comic galleries. Keep raw logs out of these folders.
 !campaigns/
 !campaigns/the-gates/
 !campaigns/the-gates/README.md
-!campaigns/the-gates/weave-gate/
-!campaigns/the-gates/weave-gate/README.md
-!campaigns/the-gates/weave-gate/08-comic-planning/
-!campaigns/the-gates/weave-gate/08-comic-planning/README.md
-!campaigns/the-gates/weave-gate/08-comic-planning/visual-drafts/
-!campaigns/the-gates/weave-gate/08-comic-planning/visual-drafts/*.png
+!campaigns/the-gates/gates/
+!campaigns/the-gates/gates/weave-gate/
+!campaigns/the-gates/gates/weave-gate/README.md
+!campaigns/the-gates/gates/weave-gate/03-session-summaries/
+!campaigns/the-gates/gates/weave-gate/03-session-summaries/*.md
+!campaigns/the-gates/gates/weave-gate/08-comic-planning/
+!campaigns/the-gates/gates/weave-gate/08-comic-planning/*.md
+!campaigns/the-gates/gates/weave-gate/08-comic-planning/visual-drafts/
+!campaigns/the-gates/gates/weave-gate/08-comic-planning/visual-drafts/*.md
+!campaigns/the-gates/gates/weave-gate/08-comic-planning/visual-drafts/*.json
+!campaigns/the-gates/gates/weave-gate/08-comic-planning/visual-drafts/*.png
 !campaigns/barovia/
 !campaigns/barovia/README.md
+!campaigns/barovia/03-session-summaries/
+!campaigns/barovia/03-session-summaries/*.md
 !campaigns/barovia/08-comic-planning/
-!campaigns/barovia/08-comic-planning/README.md
+!campaigns/barovia/08-comic-planning/*.md
+!campaigns/barovia/08-comic-planning/*.json
 !campaigns/barovia/08-comic-planning/visual-drafts/
+!campaigns/barovia/08-comic-planning/visual-drafts/*.json
 !campaigns/barovia/08-comic-planning/visual-drafts/*.png
 !campaigns/fireball/
 !campaigns/fireball/README.md
+!campaigns/fireball/03-session-summaries/
+!campaigns/fireball/03-session-summaries/*.md
 !campaigns/fireball/08-comic-planning/
-!campaigns/fireball/08-comic-planning/README.md
+!campaigns/fireball/08-comic-planning/*.md
+!campaigns/fireball/08-comic-planning/*.json
 !campaigns/fireball/08-comic-planning/*.png
 
 # Explicit public areas for cleared examples, generated comics, and public datasets.

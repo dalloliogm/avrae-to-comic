@@ -1,6 +1,10 @@
 # Barovia Comic Images
 
-Only generated comic images are stored here.
+Generated comic images and the comic plan are stored here.
+
+## Plan
+
+- [Watchful Star part 01 comic plan](2026-05-05-watchful-star-part-01-comic-plan.md)
 
 ## Lettered Page
 
