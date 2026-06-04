@@ -27,7 +27,13 @@ One main purpose of this repository is to turn play-by-post campaign text into r
 
 ## Campaigns
 
-Private campaign work should live in ignored local folders such as `campaigns/<campaign>/`. Those folders can contain raw logs, summaries, character notes, portraits, page packets, generated art, and finished local readers without being committed.
+This public repo includes campaign folders for generated comic pages only. Raw logs, session summaries, private character notes, portraits, page packets, and lettering source files remain local.
+
+- [The Gates](campaigns/the-gates/README.md): generated pages and thumbnails from the Weave Gate comic work.
+- [Barovia](campaigns/barovia/README.md): generated pages from Curse of Strahd / Watchful Star comic work.
+- [FIREBALL](campaigns/fireball/README.md): generated comic experiments based on FIREBALL dataset scenes.
+
+Private campaign work can still live in ignored local folders such as `campaigns/<campaign>/` when it is not part of one of the public comic galleries. Those local folders can contain raw logs, summaries, character notes, portraits, page packets, generated art, and finished local readers without being committed.
 
 Public campaign-derived material should be limited to cleared adaptation outputs, for example:
 
@@ -38,9 +44,12 @@ Public campaign-derived material should be limited to cleared adaptation outputs
 
 ## Examples And Current Work In Progress
 
-Public examples can live in:
+Public examples and generated campaign pages can live in:
 
 ```text
+campaigns/the-gates/
+campaigns/barovia/
+campaigns/fireball/
 examples/
 public-comics/
 datasets/fireball/
@@ -50,8 +59,10 @@ Suggested example categories:
 
 | Example Type | Notes | Public Location |
 | --- | --- | --- |
-| Character-focused comics | Generated pages centered on your own characters, with other players' contributions minimized or rewritten. | `public-comics/` |
-| FIREBALL adaptations | Comic experiments based on the FIREBALL dataset, subject to dataset license and attribution requirements. | `examples/fireball/` or `datasets/fireball/` |
+| The Gates comics | Generated pages and thumbnails focused on the Weave Gate adaptation. | `campaigns/the-gates/` |
+| Barovia comics | Generated pages from the Barovia / Curse of Strahd adaptation work. | `campaigns/barovia/` |
+| FIREBALL adaptations | Comic experiments based on the FIREBALL dataset, subject to dataset license and attribution requirements. | `campaigns/fireball/` |
+| Character-focused comics | Additional generated pages centered on your own characters, with other players' contributions minimized or rewritten. | `public-comics/` |
 | Workflow samples | Small fictional or synthetic examples that demonstrate page packets, image prompts, and lettering JSON. | `examples/workflow/` |
 
 Keep raw campaign logs local even when the final comic page is public.
@@ -89,6 +100,9 @@ The default `.gitignore` blocks common local campaign-data folders while allowin
 ```text
 campaign-template/       Copy this folder when starting a local campaign workspace.
 campaigns/               Ignored local campaign data: raw logs, notes, page packets, art.
+campaigns/the-gates/     Public generated Gates comic pages only.
+campaigns/barovia/       Public generated Barovia comic pages only.
+campaigns/fireball/      Public generated FIREBALL comic pages only.
 characters/              Ignored local character profiles and visual references.
 examples/                Public-safe examples and workflow demos.
 public-comics/           Cleared rendered comic pages and readers.

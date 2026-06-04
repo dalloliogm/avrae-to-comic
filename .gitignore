@@ -5,7 +5,7 @@ __pycache__/
 *.pyc
 
 # Keep private campaign data local by default.
-campaigns/
+campaigns/**
 characters/
 archive/
 docs/imported-conversations/
@@ -22,6 +22,28 @@ docs/imported-conversations/
 !campaign-template/**
 !templates/
 !templates/**
+
+# Public campaign comic galleries. Keep raw logs and notes out of these folders.
+!campaigns/
+!campaigns/the-gates/
+!campaigns/the-gates/README.md
+!campaigns/the-gates/weave-gate/
+!campaigns/the-gates/weave-gate/README.md
+!campaigns/the-gates/weave-gate/08-comic-planning/
+!campaigns/the-gates/weave-gate/08-comic-planning/README.md
+!campaigns/the-gates/weave-gate/08-comic-planning/visual-drafts/
+!campaigns/the-gates/weave-gate/08-comic-planning/visual-drafts/*.png
+!campaigns/barovia/
+!campaigns/barovia/README.md
+!campaigns/barovia/08-comic-planning/
+!campaigns/barovia/08-comic-planning/README.md
+!campaigns/barovia/08-comic-planning/visual-drafts/
+!campaigns/barovia/08-comic-planning/visual-drafts/*.png
+!campaigns/fireball/
+!campaigns/fireball/README.md
+!campaigns/fireball/08-comic-planning/
+!campaigns/fireball/08-comic-planning/README.md
+!campaigns/fireball/08-comic-planning/*.png
 
 # Explicit public areas for cleared examples, generated comics, and public datasets.
 !examples/
