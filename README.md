@@ -47,6 +47,7 @@ Public campaign-derived material should be limited to cleared adaptation outputs
 
 | Comic | Notes | Links |
 | --- | --- | --- |
+| Don Explodicus: Fire at the Gates | Opening sequence focused on Don joining the Gates as an orc emissary under a fragile peace. | [comic reader](public-comics/don-explodicus/comic-book.md) [series bible](public-comics/don-explodicus/don-explodicus-series-bible.md) |
 | The Gates: Weave Gate | Current generated Gates comic work with lettered pages, thumbnails, scripts, summary, and editable lettering JSON. | [comic reader](campaigns/the-gates/gates/weave-gate/08-comic-planning/comic-book.md) [gallery](campaigns/the-gates/gates/weave-gate/08-comic-planning/README.md) [summary](campaigns/the-gates/gates/weave-gate/03-session-summaries/2026-03-10-weave-gate-origin-gem-dominion.md) |
 | Barovia: Watchful Star | Generated Barovia page with comic plan and scene summary. | [gallery](campaigns/barovia/08-comic-planning/README.md) [summary](campaigns/barovia/03-session-summaries/2026-05-05-watchful-star-marcel-mission-in-progress.md) [plan](campaigns/barovia/08-comic-planning/2026-05-05-watchful-star-part-01-comic-plan.md) |
 | FIREBALL: Stonefire vs Revenant | Experimental FIREBALL adaptation with generated page, plan, scripts, summary, and lettering JSON. | [comic](campaigns/fireball/08-comic-planning/0149d30b-stonefire-revenant-comic-page-v2-lettered.png) [plan](campaigns/fireball/08-comic-planning/0149d30b-stonefire-revenant-comic-plan.md) [summary](campaigns/fireball/03-session-summaries/0149d30bc679987f4bdf288ad2cf777e.md) |
