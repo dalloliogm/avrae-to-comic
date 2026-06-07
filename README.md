@@ -32,10 +32,11 @@ One main purpose of this repository is to turn play-by-post campaign text into r
 
 This public repo includes campaign folders for generated comic pages plus selected non-raw adaptation files. Raw Discord logs remain local.
 
+- [Don Explodicus](public-comics/don-explodicus/comic-book.md)
+- [Tortugia](campaigns/tortugia/README.md): generated invitation page and Comic 00 planning materials from the Tortugia campaign.
 - [The Gates](campaigns/the-gates/README.md): summaries, scripts, lettering JSON, generated pages, and thumbnails from the Weave Gate comic work.
 - [Barovia](campaigns/barovia/README.md): summary, comic plan, and generated pages from Curse of Strahd / Watchful Star comic work.
 - [FIREBALL](campaigns/fireball/README.md): generated comic experiments based on FIREBALL dataset scenes.
-- [Tortugia](campaigns/tortugia/README.md): generated invitation page and Comic 00 planning materials from the Tortugia campaign.
 
 Private campaign work can still live in ignored local folders such as `campaigns/<campaign>/` when it is not part of one of the public campaign sections. Those local folders can contain raw logs, private character notes, portraits, page packets, generated art, and finished local readers without being committed.
 
