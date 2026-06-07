@@ -56,6 +56,19 @@ docs/imported-conversations/
 !campaigns/fireball/08-comic-planning/*.md
 !campaigns/fireball/08-comic-planning/*.json
 !campaigns/fireball/08-comic-planning/*.png
+!campaigns/tortugia/
+!campaigns/tortugia/README.md
+!campaigns/tortugia/03-session-summaries/
+!campaigns/tortugia/03-session-summaries/*.md
+!campaigns/tortugia/08-comic-planning/
+!campaigns/tortugia/08-comic-planning/*.md
+!campaigns/tortugia/08-comic-planning/*.json
+!campaigns/tortugia/08-comic-planning/*.png
+!campaigns/tortugia/08-comic-planning/visual-drafts/
+!campaigns/tortugia/08-comic-planning/visual-drafts/*.json
+!campaigns/tortugia/08-comic-planning/visual-drafts/*.png
+
+!campaigns/tortugia/08-comic-planning/visual-drafts/*.webp
 
 # Explicit public areas for cleared examples, generated comics, and public datasets.
 !examples/
