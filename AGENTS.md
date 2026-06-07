@@ -13,7 +13,6 @@ Commit new campaign work to the private source repo first. Publish to this repo 
 
 This repo may include:
 
-- public scene summaries in `03-session-summaries/`
 - comic plans and page scripts in `08-comic-planning/`
 - lettering JSON in `08-comic-planning/` or subfolders
 - generated comic images such as `.png`
@@ -23,6 +22,7 @@ Do not commit raw or private source material:
 
 - `00-inbox/`
 - `02-chat-logs/`
+- `03-session-summaries/`
 - `07-private-notes/`
 - Discord exports
 - message IDs, server IDs, private channel names, or user IDs
@@ -46,7 +46,7 @@ Before committing or pushing, run:
 
 ```bash
 git status --short
-git diff --cached --name-only | rg '00-inbox|02-chat-logs|07-private-notes|\.DS_Store|\.Rhistory'
+git diff --cached --name-only | rg '00-inbox|02-chat-logs|03-session-summaries|07-private-notes|\.DS_Store|\.Rhistory'
 ```
 
 If the second command prints any paths, stop and unstage them before committing.

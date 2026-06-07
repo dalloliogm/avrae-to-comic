@@ -30,8 +30,6 @@ docs/imported-conversations/
 !campaigns/the-gates/gates/
 !campaigns/the-gates/gates/weave-gate/
 !campaigns/the-gates/gates/weave-gate/README.md
-!campaigns/the-gates/gates/weave-gate/03-session-summaries/
-!campaigns/the-gates/gates/weave-gate/03-session-summaries/*.md
 !campaigns/the-gates/gates/weave-gate/08-comic-planning/
 !campaigns/the-gates/gates/weave-gate/08-comic-planning/*.md
 !campaigns/the-gates/gates/weave-gate/08-comic-planning/visual-drafts/
@@ -40,8 +38,6 @@ docs/imported-conversations/
 !campaigns/the-gates/gates/weave-gate/08-comic-planning/visual-drafts/*.png
 !campaigns/barovia/
 !campaigns/barovia/README.md
-!campaigns/barovia/03-session-summaries/
-!campaigns/barovia/03-session-summaries/*.md
 !campaigns/barovia/08-comic-planning/
 !campaigns/barovia/08-comic-planning/*.md
 !campaigns/barovia/08-comic-planning/*.json
@@ -50,16 +46,12 @@ docs/imported-conversations/
 !campaigns/barovia/08-comic-planning/visual-drafts/*.png
 !campaigns/fireball/
 !campaigns/fireball/README.md
-!campaigns/fireball/03-session-summaries/
-!campaigns/fireball/03-session-summaries/*.md
 !campaigns/fireball/08-comic-planning/
 !campaigns/fireball/08-comic-planning/*.md
 !campaigns/fireball/08-comic-planning/*.json
 !campaigns/fireball/08-comic-planning/*.png
 !campaigns/tortugia/
 !campaigns/tortugia/README.md
-!campaigns/tortugia/03-session-summaries/
-!campaigns/tortugia/03-session-summaries/*.md
 !campaigns/tortugia/08-comic-planning/
 !campaigns/tortugia/08-comic-planning/*.md
 !campaigns/tortugia/08-comic-planning/*.json
