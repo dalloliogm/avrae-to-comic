@@ -1,29 +1,12 @@
-# Play-by-Post Assistant
+# Avrae-to-Comic
 
-Play-by-post Dungeons & Dragons games are tabletop RPG campaigns played through written messages instead of a live voice or in-person session. Players post character actions, dialogue, dice rolls, and combat commands over time, often in Discord servers that use Avrae to automate D&D mechanics.
+This repository contains an agentic system to turn logs from play-by-post Dungeons & Dragons games into comic books.
 
-In my spare time, since COVID, I like to play these games. They are a way for me to keep my mind healthy, stay connected to collaborative storytelling, and practice writing skills.
+Since COVID, in my spare time, I like to play this type of games, as a way to improve my storytelling and writing skills.
 
-With the advent of LLMs and diffusion models, I have become curious about automatically generating comic books from the textual chats of these games. This project is a local knowledge base and comic-generation workspace for Play-by-Post Dungeons & Dragons campaigns, and it contains AI skills for preserving logs, understanding Avrae-heavy scenes, and adapting those scenes into comics.
+Thanks to the new AI technologies, I have converted some of my played sessions into comic books. This repository contains the examples that I can show publicly.
 
-Use it to collect and adapt:
-
-- raw Discord chat pasted from previous adventures
-- character summaries, current sheets, portraits, and visual continuity notes
-- Avrae aliases, snippets, embeds, command notes, rolls, and combat outcomes
-- session or scene summaries
-- campaign lore, NPCs, quests, factions, and unresolved threads
-- comic plans, page scripts, thumbnails, generated art, lettering JSON, and finished comic readers
-- reusable prompts and Codex skills for summarizing logs, catching up, drafting posts, and turning text into comic-book pages
-
-One main purpose of this repository is to turn play-by-post campaign text into readable comics while preserving the original logs as source material.
-
-## Campaigns
-
-- [The Gates](campaigns/the-gates/campaign.md): a combat-focused Gates server where Defenders answer Gate-specific missions that prevent incursions from evil dimensions. Current comic work is focused on Don Explodicus's Weave Gate mission against Dominion.
-- [Curse of Strahd](campaigns/curse-of-strahd/campaign.md): Barovia play-by-post threads involving Marcel, Seventius, Pyxis, Soren, Widget, Inge, and others, with active Watchful Star and aboleth ship-cove threads.
-- [Tortugia](campaigns/tortugia/campaign.md): a long-running west-march-style demi-plane campaign centered on Rovers, monoliths, Princes, Wardens, shadowmists, and maritime dark fantasy.
-- [FIREBALL Dataset](campaigns/fireball/campaign.md): an imported, anonymized corpus of Discord D&D/Avrae sessions from the FIREBALL dataset, used for analysis and comic-adaptation experiments rather than as a normal campaign.
+This repository also includes AI skills and an agentic system for creating comics from your own adventures. Just load the repository into a local folder, open OpenAI Codex or similar tool, and ask it to guide you through the process.
 
 ## Examples And Current Work In Progress
 
@@ -63,24 +46,4 @@ Comic pages are built in stages:
 5. Add final text with `scripts/letter_comic_page.py` and an editable JSON layout.
 6. Rerender lettering after moving caption boxes; regenerate art only when the composition itself needs to change.
 
-## Folder Map
 
-```text
-campaigns/
-  _template/              Copy this folder when starting a new campaign.
-    00-inbox/             Temporary holding area for unsorted pasted material.
-    01-characters/        PC and NPC notes for this campaign.
-    02-chat-logs/         Raw Discord / Avrae chat logs, kept as source material.
-    03-session-summaries/ Clean summaries by session, scene, or date.
-    04-lore/              Places, factions, NPCs, quests, items, clues.
-    05-avrae/             Campaign-specific Avrae commands, aliases, snippets.
-    06-prompts/           Campaign-specific assistant prompts.
-    07-private-notes/     Spoilers, DM-only notes, or things not for sharing.
-    08-comic-planning/    Comic plans, page scripts, thumbnails, lettering JSON.
-characters/              Cross-campaign character profiles.
-prompts/                 Reusable prompts that work across campaigns.
-scripts/                 Import, lettering, packet setup, and utility scripts.
-docs/                    Project-level notes, workflows, and imported summaries.
-.codex/skills/           Custom Codex skills for this play-by-post workspace.
-archive/                 Retired campaigns or old imports.
-```
