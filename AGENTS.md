@@ -36,6 +36,7 @@ Current public campaign sections are:
 - `campaigns/the-gates/gates/weave-gate/`
 - `campaigns/barovia/`
 - `campaigns/fireball/`
+- `campaigns/tortugia/`
 
 For The Gates, preserve the private repo convention: gate-specific work belongs under `campaigns/the-gates/gates/<gate-name>/`.
 

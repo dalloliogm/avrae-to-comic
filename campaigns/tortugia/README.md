@@ -1,0 +1,9 @@
+# Tortugia
+
+Public comic adaptation files from the Tortugia campaign.
+
+Raw Discord logs, private notes, character sheets, and private portraits remain local.
+
+## Comics
+
+- [Return to Tortugia](08-comic-planning/tortugia-return-invitation-page-script.md) — invitation page draft with script, lettering JSON, and generated rough thumbnail.
