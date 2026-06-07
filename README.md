@@ -18,10 +18,13 @@ Use it to collect and adapt:
 
 One main purpose of this repository is to turn play-by-post campaign text into readable comics while preserving the original logs as source material.
 
+## Credits
+
+- The Tortugia setting is created by [DMGrisix](https://startplaying.games/gm/dmgrisix), and it is used here with permission.
+
 ## Campaigns
 
 - [The Gates](campaigns/the-gates/campaign.md): a combat-focused Gates server where Defenders answer Gate-specific missions that prevent incursions from evil dimensions. Current comic work is focused on Don Explodicus's Weave Gate mission against Dominion.
-- [Curse of Strahd](campaigns/curse-of-strahd/campaign.md): Barovia play-by-post threads involving Marcel, Seventius, Pyxis, Soren, Widget, Inge, and others, with active Watchful Star and aboleth ship-cove threads.
 - [Tortugia](campaigns/tortugia/campaign.md): a long-running west-march-style demi-plane campaign centered on Rovers, monoliths, Princes, Wardens, shadowmists, and maritime dark fantasy.
 - [FIREBALL Dataset](campaigns/fireball/campaign.md): an imported, anonymized corpus of Discord D&D/Avrae sessions from the FIREBALL dataset, used for analysis and comic-adaptation experiments rather than as a normal campaign.
 
@@ -30,7 +33,6 @@ One main purpose of this repository is to turn play-by-post campaign text into r
 | Comic | Notes | Links |
 | --- | --- | --- |
 | Don Explodicus vs Dominion | Current The Gates comic work in progress, with generated reader pages, visual drafts, and multi-page scripts. | [comic](campaigns/the-gates/gates/weave-gate/08-comic-planning/comic-book.md) [visual draft](campaigns/the-gates/gates/weave-gate/08-comic-planning/visual-drafts/index.md) [script](campaigns/the-gates/gates/weave-gate/08-comic-planning/2026-03-10-weave-gate-origin-gem-dominion-comic-plan.md) |
-| The Watchful Star | Current Curse of Strahd comic work in progress, adapting Marcel and Pyxis's hilltop astronomy scene into generated reader pages. | [comic](campaigns/curse-of-strahd/08-comic-planning/comic-book.md) [visual drafts](campaigns/curse-of-strahd/08-comic-planning/visual-drafts/) [script](campaigns/curse-of-strahd/08-comic-planning/2026-05-05-watchful-star-part-01-comic-plan.md) |
 | Return to Tortugia | Single-page invitation comic for former Tortugia players, using no-text generated art plus editable caption lettering. | [lettered page](campaigns/tortugia/08-comic-planning/visual-drafts/tortugia-return-invitation-page-lettered-v5.png) [base art](campaigns/tortugia/08-comic-planning/visual-drafts/tortugia-return-invitation-page-rough-thumbnail-v5.webp) [script](campaigns/tortugia/08-comic-planning/tortugia-return-invitation-page-script.md) |
 | FIREBALL Stonefire vs Revenant | Experimental FIREBALL adaptation with a generated page and an eight-page script set. | [comic](campaigns/fireball/08-comic-planning/0149d30b-stonefire-revenant-comic-page-v2-lettered.png) [visual draft](campaigns/fireball/08-comic-planning/0149d30b-stonefire-revenant-comic-page-v2-art-base.png) [script](campaigns/fireball/08-comic-planning/0149d30b-stonefire-revenant-comic-plan.md) |
 | FIREBALL Lythra vs Banjo Bear | Generated one-page comic from FIREBALL source material. | [comic](campaigns/fireball/08-comic-planning/0408134b-lythra-banjo-bear-page-01-lettered.png) [visual draft](campaigns/fireball/08-comic-planning/0408134b-lythra-banjo-bear-page-01-art-base.png) [script](campaigns/fireball/03-session-summaries/0408134bff023e90d26ceecd1c4669ef.md) |
