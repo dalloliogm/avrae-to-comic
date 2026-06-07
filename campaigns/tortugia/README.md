@@ -6,7 +6,7 @@ Raw Discord logs, private notes, character sheets, and private portraits remain 
 
 ## Credits
 
-- Setting created by DMGrisix for the Tortugia Discord PbP campaign.
+- Setting created by [DMGrisix](https://startplaying.games/gm/dmgrisix) for the Tortugia Discord PbP campaign.
 - Published here with DMGrisix's permission.
 
 ## Comics
