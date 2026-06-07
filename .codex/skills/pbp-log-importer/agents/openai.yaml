@@ -1,0 +1,4 @@
+interface:
+  display_name: "PbP Log Importer"
+  short_description: "Import Discord and Avrae campaign logs"
+  default_prompt: "Use -log-importer to import this Discord or Avrae play-by-post log into a campaign workspace."

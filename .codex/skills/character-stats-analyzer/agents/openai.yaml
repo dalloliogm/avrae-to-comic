@@ -1,0 +1,4 @@
+interface:
+  display_name: "Character Stats Analyzer"
+  short_description: "Compute evidence-tagged character stats from PbP logs"
+  default_prompt: "Use $character-stats-analyzer to compute character mission and spell stats from this campaign workspace."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Character Voice Drafter"
+  short_description: "Draft PbP posts in character voice"
+  default_prompt: "Use -voice-drafter to draft three in-character Discord replies for this scene."

@@ -17,7 +17,7 @@ This repo may include:
 - comic plans and page scripts in `08-comic-planning/`
 - lettering JSON in `08-comic-planning/` or subfolders
 - generated comic images such as `.png`
-- reusable templates, prompts, scripts, and workflow docs
+- reusable templates, prompts, scripts, skills, agent prompts, and workflow docs
 
 Do not commit raw or private source material:
 
@@ -53,3 +53,12 @@ If the second command prints any paths, stop and unstage them before committing.
 ## README Links
 
 When adding or moving public comic material, update the top-level `README.md` and the relevant campaign `README.md` so generated comics remain discoverable from the repository front page.
+
+## Skills And Agentic System
+
+This public repo should carry the reusable play-by-post skills and agent templates developed in the private source repo when they are workflow-level assets rather than campaign-private content.
+
+- Keep public-safe skills under `.codex/skills/`.
+- Keep reusable agent prompts under both `.codex/skills/<skill>/agents/` where the Codex skill expects them and `templates/agent-prompts/` where repo users can copy them without Codex.
+- Do not include raw logs, private notes, private portraits, Discord IDs, or uncensored player prose inside public skills, templates, or examples.
+- When syncing from the private repo, review staged paths before committing and confirm no `00-inbox/`, `02-chat-logs/`, or `07-private-notes/` files are included.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Avrae Combat Summarizer"
+  short_description: "Summarize noisy Avrae combat logs"
+  default_prompt: "Use -combat-summarizer to summarize this Avrae combat log and explain the story consequences."

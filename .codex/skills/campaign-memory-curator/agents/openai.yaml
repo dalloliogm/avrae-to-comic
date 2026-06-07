@@ -1,0 +1,4 @@
+interface:
+  display_name: "Campaign Memory Curator"
+  short_description: "Extract durable campaign facts"
+  default_prompt: "Use -memory-curator to update campaign memory from this summary or chat log."

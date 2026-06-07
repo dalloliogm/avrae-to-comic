@@ -21,6 +21,8 @@ One main purpose of this repository is to turn play-by-post campaign text into r
 
 - campaign and scene templates for local private workspaces
 - reusable prompts for summarizing logs and drafting posts
+- reusable Codex skills for importing logs, summarizing Avrae combat, curating campaign memory, drafting character voice, analyzing character stats, and planning comics
+- reusable agent prompts for continuity, scripting, image prompting, lettering, and review passes
 - page-packet templates for comic adaptation
 - simple scripts for page-packet setup and editable lettering
 - workflow notes for turning text scenes into no-text art plus separate lettering
@@ -92,6 +94,21 @@ For multi-pass page work, [comic-agent-orchestration.md](docs/comic-agent-orches
 
 For keeping the private source repo and this public repo aligned, see [repo-workflow.md](docs/repo-workflow.md).
 
+## Reusable Skills And Agents
+
+This repo includes public-safe versions of the play-by-post Codex skills developed in the private source workspace:
+
+- `pbp-log-importer`: preserve and organize raw Discord and Avrae logs before summarization.
+- `avrae-combat-summarizer`: reconstruct combat-heavy logs into turn order, mechanics, and story consequences.
+- `campaign-memory-curator`: extract durable facts into character, lore, quest, faction, item, and unresolved-thread notes.
+- `character-voice-drafter`: draft Discord-ready in-character replies while respecting voice and table etiquette.
+- `comic-adaptation-planner`: turn scenes into page scripts, panel beats, image prompts, lettering plans, and review notes.
+- `character-stats-analyzer`: compute evidence-tagged character statistics from indexes, summaries, raw logs, and Avrae notes.
+
+Codex skill files live under [.codex/skills/](.codex/skills/). The comic agent prompts are also available under [templates/agent-prompts/](templates/agent-prompts/) for users who want to copy them into page packets or run the workflow without Codex skill discovery.
+
+Keep these workflow assets public-safe. They should describe processes, templates, and scripts, not private campaign source text.
+
 ## Privacy Model
 
 Keep source campaign data local and out of git unless everyone involved has agreed that it can be published.
@@ -121,6 +138,7 @@ datasets/fireball/       FIREBALL-derived public material, with license notes.
 prompts/                 Reusable prompts that work across campaigns.
 templates/page-packet/   Comic page planning files.
 templates/agent-prompts/ Optional role prompts for independent review passes.
+.codex/skills/           Public-safe Codex skills for play-by-post workflows.
 scripts/                 Packet setup, lettering, and utility scripts.
 docs/                    Project-level workflow notes.
 ```

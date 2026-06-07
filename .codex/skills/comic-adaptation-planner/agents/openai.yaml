@@ -1,0 +1,4 @@
+interface:
+  display_name: "Comic Adaptation Planner"
+  short_description: "Turn PbP scenes into comic beats"
+  default_prompt: "Use -adaptation-planner to adapt this play-by-post scene into comic panels."
