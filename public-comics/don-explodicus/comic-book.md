@@ -14,11 +14,11 @@ This is a rough comic-book reader for the current generated page drafts. These p
 
 ## Page 3
 
-![Page 3](visual-drafts/don-explodicus-page-03-normal-dialogue-draft.png)
+![Page 3](visual-drafts/don-explodicus-page-03-first-threshold-draft.png)
 
 ## Related Files
 
 - [Series bible](don-explodicus-series-bible.md)
 - [Page 1 draft](visual-drafts/don-explodicus-page-01-blessing-healthy-arms-draft.png)
 - [Page 2 draft](visual-drafts/don-explodicus-page-02-present-tense-draft.png)
-- [Page 3 draft](visual-drafts/don-explodicus-page-03-normal-dialogue-draft.png)
+- [Page 3 draft](visual-drafts/don-explodicus-page-03-first-threshold-draft.png)
